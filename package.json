@@ -1,0 +1,31 @@
+{
+  "name": "@rudinesurya/api-gateway-interfaces",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate-barrels": "barrelsby --delete --exclude src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "barrelsby": "^2.8.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@nestjs/swagger": "^7.4.2",
+    "@rudinesurya/applications-service-interfaces": "^1.0.5",
+    "@rudinesurya/jobs-service-interfaces": "^1.0.7",
+    "@rudinesurya/messages-service-interfaces": "^1.0.4",
+    "@rudinesurya/user-ratings-service-interfaces": "^1.0.5",
+    "@rudinesurya/users-service-interfaces": "^1.0.4",
+    "mongoose": "^8.12.0"
+  }
+}
