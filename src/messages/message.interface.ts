@@ -1,7 +1,5 @@
-import mongoose, { Document } from 'mongoose';
-
-export interface IMessage extends Document {
-    sender: mongoose.Types.ObjectId;
-    recipient: mongoose.Types.ObjectId;
+export interface IMessage {
+    sender: string;
+    recipient: string;
     content: string;
 }

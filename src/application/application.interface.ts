@@ -1,7 +1,5 @@
-import mongoose, { Document } from 'mongoose';
-
-export interface IApplication extends Document {
-    job: mongoose.Types.ObjectId;
-    applicant: mongoose.Types.ObjectId;
+export interface IApplication {
+    job: string;
+    applicant: string;
     cover_letter: string;
 }

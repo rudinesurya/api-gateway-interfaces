@@ -1,8 +1,6 @@
-import mongoose, { Document } from 'mongoose';
-
-export interface IUserRating extends Document {
-    rater: mongoose.Types.ObjectId;
-    rated_user: mongoose.Types.ObjectId;
+export interface IUserRating {
+    rater: string;
+    rated_user: string;
     rating: number;
     comment?: string;
 }
