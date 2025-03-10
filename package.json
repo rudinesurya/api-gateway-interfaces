@@ -2,13 +2,13 @@
   "name": "@rudinesurya/api-gateway-interfaces",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsc",
-    "generate-barrels": "barrelsby --delete --exclude src",
+    "generate-barrels": "barrelsby --delete --exclude dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
