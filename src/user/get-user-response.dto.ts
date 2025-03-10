@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import { Types } from 'mongoose';
 import { IUser } from './user.interface';
 
-export class GetUserByTokenResponseDto {
+export class GetUserResponseDto {
     @ApiProperty({ example: 'user_get_by_id_success' })
     system_message: string;
     @ApiProperty({
