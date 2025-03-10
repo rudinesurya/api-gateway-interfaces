@@ -19,6 +19,11 @@ jobs:
           node-version: 18
           registry-url: 'https://npm.pkg.github.com'
       
+      - name: Create .npmrc file
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN }}" > ~/.npmrc
+          echo "@rudinesurya:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+      
       - name: Install Dependencies
         run: npm ci
 

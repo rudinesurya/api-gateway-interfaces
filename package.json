@@ -2,7 +2,7 @@
   "name": "@rudinesurya/api-gateway-interfaces",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -21,6 +21,12 @@
   },
   "dependencies": {
     "@nestjs/swagger": "^7.4.2",
+    "@rudinesurya/applications-service-interfaces": "^1.0.8",
+    "@rudinesurya/jobs-service-interfaces": "^1.0.10",
+    "@rudinesurya/messages-service-interfaces": "^1.0.7",
+    "@rudinesurya/token-service-interfaces": "^1.0.8",
+    "@rudinesurya/user-ratings-service-interfaces": "^1.0.8",
+    "@rudinesurya/users-service-interfaces": "^1.0.7",
     "mongoose": "^8.12.0"
   }
 }
