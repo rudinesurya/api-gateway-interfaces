@@ -21,11 +21,6 @@
   },
   "dependencies": {
     "@nestjs/swagger": "^7.4.2",
-    "@rudinesurya/applications-service-interfaces": "^1.0.5",
-    "@rudinesurya/jobs-service-interfaces": "^1.0.7",
-    "@rudinesurya/messages-service-interfaces": "^1.0.4",
-    "@rudinesurya/user-ratings-service-interfaces": "^1.0.5",
-    "@rudinesurya/users-service-interfaces": "^1.0.4",
     "mongoose": "^8.12.0"
   }
 }

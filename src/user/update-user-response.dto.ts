@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IUser } from '@rudinesurya/users-service-interfaces';
 import { Types } from 'mongoose';
+import { IUser } from './user.interface';
 
 export class UpdateUserResponseDto {
     @ApiProperty({ example: 'user_update_success' })
