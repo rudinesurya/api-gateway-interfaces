@@ -1,5 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Types } from 'mongoose';
+import { IUserRating } from './user-rating.interface';
 
 export class CreateUserRatingResponseDto {
     @ApiProperty({ example: 'user_rating_create_success' })
